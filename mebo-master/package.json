@@ -1,0 +1,30 @@
+{
+  "name": "mebo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "TEST=true mocha --recursive tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.2",
+    "log4js": "^1.1.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.5",
+    "morgan": "~1.7.0",
+    "q": "^1.4.1",
+    "serve-favicon": "~2.3.0",
+    "sinon": "^1.17.6",
+    "supertest": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
